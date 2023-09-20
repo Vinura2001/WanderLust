@@ -1,0 +1,351 @@
+body{
+    background-color: rgb(25, 25, 25);
+    margin: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+/* Header Start */
+
+.Header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.Navbar{
+    position: fixed;
+    top: 3%;
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    margin-left: 0;
+    margin-top: 0%;
+    justify-content: center;
+    z-index: 2;
+}
+
+.Navbar li{
+    font-family: 'Comic Sans MS';
+    color: white;
+    font-size: 15.5px;
+    padding-left: 3%;
+    position: relative;
+    top: 40px;
+    left: -6%;
+
+}
+
+.HeaderLinks{
+    text-decoration: none;
+    color: white;
+}
+
+#Home{
+    position: absolute;
+    top: 22.5%;
+    margin-left: 0%;
+    width: 48%;
+    border-color: rgb(255, 255, 255);
+    transition: border-color 0.3s;
+    z-index: 3;
+}
+
+#HomeLink:hover > #Home {
+    border-color: red;
+}
+
+#ToursPackages{
+    position: absolute;
+    top: 22.5%;
+    margin-left: 0%;
+    width: 75%;
+    border-color: rgb(255, 255, 255);
+    transition: border-color 0.3s;
+    z-index: 3;
+}
+
+#ToursPackagesLink:hover > #ToursPackages {
+    border-color: red;
+}
+
+#Accommodation{
+    position: absolute;
+    top: 22.5%;
+    margin-left: 0%;
+    width: 72%;
+    border-color: rgb(255, 255, 255);
+    transition: border-color 0.3s;
+    z-index: 3;
+}
+
+#AccommodationLink:hover > #Accommodation {
+    border-color: red;
+}
+
+
+#Gallery{
+    position: absolute;
+    top: 22.5%;
+    margin-left: 0%;
+    width: 53%;
+    border-color: rgb(255, 255, 255);
+    transition: border-color 0.3s;
+    z-index: 3;
+}
+
+#GalleryLink:hover > #Gallery {
+    border-color: red;
+}
+
+    
+#Transportation{
+    position: absolute;
+    top: 22.5%;
+    margin-left: 0%;
+    width: 72%;
+    border-color: rgb(255, 255, 255);
+    transition: border-color 0.3s;
+    z-index: 3;
+}
+
+#TransportationLink:hover > #Transportation {
+    border-color: red;
+}
+
+
+#WeatherClimate{
+    position: absolute;
+    top: 22.5%;
+    margin-left: 0%;
+    width: 76%;
+    border-color: rgb(255, 255, 255);
+    transition: border-color 0.3s;
+    z-index: 3;
+}
+
+#NavHr{
+    position: absolute;
+    top: 22.5%;
+    color: white;
+    width: 1047px;
+    margin-left: 15%;
+    z-index: 1;
+}
+
+#WeatherClimateLink:hover > #WeatherClimate {
+    border-color: red;
+}
+
+
+#logo{
+    display: flex;
+    width: 250px;
+    height: 150px;
+    position: relative;
+    top: -70px;
+    left: 0%;
+}
+
+.HeaderImage{
+    opacity: 0.5;
+    width: 100%;
+    height: 700px;
+    z-index: 0;
+}
+
+.image-fade {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 80%; /* Adjust this value to control the height of the fade */
+    background: linear-gradient(to bottom, transparent, rgba( 25, 25, 25, 1)); /* Adjust the color and transparency as needed */
+}
+
+h1{
+    position: absolute;
+    left: 10%;
+    top: 30%;
+    color: white;
+    z-index: 1;
+}
+
+p{
+    position: absolute;
+    left: 10%;
+    top: 40%;
+    color: white;
+    font-size: 1.2rem;
+    z-index: 1;
+}
+
+#searchbarlabel{
+    position: absolute;
+    left: 90%;
+    top: 30%;
+   
+}
+
+#SearchBar{
+    position: absolute;
+    left: 74%;
+    top: 30%;
+    width: 15%;
+    height: 3%;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: none;
+    filter: invert(1);
+}
+
+.searchicon{
+    filter: invert(1);
+    width: 15%;
+    height: 15%;
+}
+
+#instericon,#facebookicon,#twitericon,#pintersticon{
+    width: 2.5%;
+    height: 4.5%;
+    filter: invert(1);
+}
+
+#instericon{
+    position: absolute;
+    top: 55%;
+    left: 88%;
+}
+
+#facebookicon{
+    position: absolute;
+    top: 65%;
+    left: 88%;
+}
+
+#twitericon{
+    position: absolute;
+    top: 75%;
+    left: 88%;
+}
+
+#pintersticon{
+    position: absolute;
+    top: 85%;
+    left: 88%;
+}
+
+/* Header Close */
+
+
+
+#imges{
+    width: 1500px;
+    height: 800px;
+    position: relative;
+    top: -30%;
+}
+
+.slider{
+    display: flex;
+    position: relative;
+    left: 0;
+    top: 300vh;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+}
+
+.slides{
+    display: flex;
+    position: relative;
+    
+}
+
+.slides input{
+    display: none;
+}
+
+.slide{
+    width: 100%;
+    transition: 2s;
+}
+
+.manual-btn{
+    position: relative;
+    left: 40%;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.manual-btn:not(:last-child){
+    margin-right: 40px;
+}
+
+.manual-btn:hover{
+    background: rgb(255, 255, 255);
+}
+
+#radio1:checked ~ .first{
+    margin-left: 0;
+}
+
+#radio2:checked ~ .first{
+    margin-left: -1500px;
+}
+
+#radio3:checked ~ .first{
+    margin-left: -3000px;
+}
+
+#radio4:checked ~ .first{
+    margin-left: -4500px ;
+}
+
+.navigation-manual{
+    position: absolute;
+    width: 800px;
+    margin-top: 450px;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation-auto{
+    position: absolute;
+    display: flex;
+    width: 800px;
+    justify-content: center;
+    margin-top: 450px;
+}
+
+.navigation-auto div{
+    position: relative;
+    left: 40%;
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.navigation-auto div:not(:last-child){
+    margin-right: 40px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1{
+    background: white;
+}
+
+#radio2:checked ~ .navigation-auto .auto-btn2{
+    background: white;
+}
+
+#radio3:checked ~ .navigation-auto .auto-btn3{
+    background: white;
+}
+
+#radio4:checked ~ .navigation-auto .auto-btn4{
+    background: white;
+}
